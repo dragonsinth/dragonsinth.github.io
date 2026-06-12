@@ -10,7 +10,8 @@ You look back at your friends, who are now looking at you with a mix of expectat
   -> entry_hall
 
 * [Chicken out.]
-  Exploring an abandoned old house is probably a bad idea. How did you let your friends talk you into this? You turn around and head back towards the street. Your friends are already laughing and pointing. Your face feels a little bit red, but eventually you'll get over the embarrassment.
+  Exploring an abandoned old house is probably a bad idea. How did you let your friends goad you into this? Part of you admits it's your own fault for running your big mouth. Welp, better to reverse course rather than make it any worse.
+  You turn around and head back towards the street. Your friends are already laughing. Your face feels a little red, but eventually you'll get over the embarrassment.
 
   THE END
 
@@ -62,22 +63,22 @@ Entry Hall
 === parlor ===
 Parlor
 
-{stopping: You step into the parlor. Heavy curtains are drawn across the windows, admitting only thin slivers of grey light. A stone fireplace dominates one wall, cold and long dead. The furniture — an antique sofa, a side table, a wingback chair — sit shrouded in dust sheets like a gathering of ghosts. The room smells of mildew and old wood. | You are back in the parlor. | }
+{stopping: You step into the parlor. Heavy curtains are drawn across the windows, admitting only thin slivers of grey light. A stone fireplace dominates one wall, cold and long dead. The furniture — an antique sofa, a side table, a wingback chair — sit shrouded in dust sheets like a gathering of ghosts. The room smells of mildew and old wood. | You are in the parlor. | }
 
 * (saw_curtains) [Heavy curtains are drawn across the windows.]
   You grab the nearest curtain and yank it aside, hoping for a way out. What you find instead are iron bars, set deep into the window frame and showing no sign of rust or weakness. The window itself is so caked with grime that pulling back the curtain barely makes a difference — the light that filters through is the same thin, grey murk as before.
   -> parlor
 * (saw_bear) [A mounted bear head hangs above the fireplace.]
-  The bear's glass eyes catch the dim light with an unsettling gleam. It's enormous — far larger than you'd imagined a bear's head could be — and its lips are drawn back just slightly, as if frozen mid-snarl. You take a few steps toward it before your nerve gives out. Something about the angle of those eyes makes you feel like it's watching you. You back away slowly and decide you'd rather not get any closer.
+  The bear's glass eyes catch the dim light with an unsettling gleam. It's enormous — far larger than you'd imagined a bear's head could be — and its lips are drawn back just slightly, as if frozen mid-snarl. It looks as if it might come to life at any moment. You take a few steps toward it before your nerve gives out. You back away slowly and decide you'd rather not get any closer.
   -> parlor
 * (found_key) [A tall grandfather clock stands against the far wall.]
-  You approach the clock. It has long since stopped ticking, but the hands rest on 11:59, although you can't be sure whether that was the middle of the day or night. The pendulum hangs perfectly still behind the glass door, but it's suspended mid-swing as though time itself simply stopped. You peer more closely at the door and notice a small iron key was left in the keyhole.
+  You approach the clock. It has long since stopped ticking, but the hands rest on 11:59, although you can't be sure whether that was the middle of the day or night. The pendulum hangs perfectly still behind the glass door, but it's suspended mid-swing as though time itself simply stopped. You peer more closely at the door and notice a large iron key was left in the keyhole.
   -> parlor
-* (got_key) {found_key} [Carefully take key from the clock door.]
-  You pull the key from the keyhole, and the frozen pendulum suddenly shifts, falling into a neutral position. The minute hand lurches forward, and somehow you know deep down that it was midnight, not noon. The key is both colder and heavier than you expected. You slip it into your right pocket.
+* (got_key) {found_key} [Take the key from the clock door.]
+  As you pull the key from the keyhole, the frozen pendulum suddenly shifts, falling into a neutral position. The minute hand lurches forward, and somehow you know deep down that it represents midnight rather than noon. The key is both colder and heavier than you expected. You slip it into your right pocket.
   -> parlor
 * (saw_portrait) [A portrait hangs on the wall beside the window.]
-  Unlike the ruined paintings in the entry hall, this painting seems strangely vibrant and unmarred by time. It depicts a man in in a suit, standing imperiously gazing at the viewer. You can't decide his age, he could be anywhere from thiry to fifty. He is smiling, but there is something a little unsettling about the expression. You have the irrational but persistent feeling that the painted eyes are watching you. You look away.
+  Unlike the ruined paintings in the entry hall, this painting seems strangely vibrant and unmarred by time. It depicts a man in an old-fashioned suit, standing with an imperious sort of posture. You can't decide his age, he could be anywhere from thiry to fifty. He is smiling, but there is something unsettling about the expression, and his eyes seem to be boring right into you. You look away.
   -> parlor
 
 + [Return to the entry hall.]
@@ -88,15 +89,15 @@ Parlor
 === study ===
 Study
 
-{stopping: You step into the study. It's a small, close room — dark wood paneling on every wall, a heavy desk buried under papers gone soft with damp, and a leather reading chair that has caved in on itself with age. A small fireplace still holds some very old ashes. A single bookshelf holds a modest collection of volumes, their spines cracked and faded. Most of the books are in such bad shape that you can't even read the titles anymore, but a couple are still in good condition. | You are in the study. | }
+{stopping: You step into the study. It's a small, close room — dark wood paneling on every wall, a heavy desk buried under mouldy papers, and a leather reading chair that has caved in on itself with age. Some ashes have been resting in the bottom of a small fireplace for a very long time. A single bookshelf holds a modest collection of volumes, their spines cracked and faded. Most of the books are in such bad shape that you can't even read the titles anymore, but a couple are still in good condition. | You are in the study. | }
 
-* (read_bible) [A worn, leather-bound Bible sits on on the small table beside the chair.]
+* (read_bible) [A worn, leather-bound Bible sits on a small table beside the reading chair.]
 
   You delicately pry open the Bible. The pages are yellowed and tissue-thin, and the text is dense and small.
 
   It opens to Psalm 23, and you read "Yea, though I walk through the valley of the shadow of death, I will fear no evil." This must be the King James Version. 
   
-  You realize that the book opened to this particular page because someone threaded the chain of a necklace through the pages here. A silver cross hangs off the end of the chain, lost and forgotten.
+  The book opened to this particular page because someone has threaded the chain of a necklace through the pages here. A silver cross hangs off the end of the chain, lost and forgotten.
   -> study
 
 * (got_cross) {read_bible} [Take the silver cross necklace.]
@@ -112,7 +113,7 @@ Study
   -> study
 
 * (examined_study_window) [A small window is set high in the wall.]
-  You drag the desk chair over and stand on it to get a closer look. The window is grimy but unbarred — and just barely large enough to squeeze through, if you had to. The latch is rusted solid, but the glass is old and thin. You could probably break it. You'd almost certainly cut yourself doing it, though, and you're not desperate enough for that. Not yet. You climb back down.
+  You drag the desk chair over and stand on it to get a closer look. The window is grimy but unbarred — and just barely large enough to squeeze through, if you had to. The latch is rusted solid, but the glass is old and thin. You could probably break it. You'd definitely cut yourself up in the process, though, and you're not desperate enough for that. Not yet. You climb back down.
   -> study
 
 + [Return to the entry hall.]
@@ -138,7 +139,7 @@ Kitchen
   -> kitchen
 * (got_knife) {found_knife} [Take the chef's knife.]
   You pick up the knife. The blade is long and, strangely, free of rust. It looks practically new, and when you carefully test the edge with your thumb, you are only a little surprised to find it sharp... sharper than it has any right to be, sitting in an abandoned house. It must be stainless steel. You wonder how it got here.
-  You tuck the knife into your belt at the small of your back. The blade slides through easily, but the handle is large enough, that you don't think it's in danger of slipping out. You feel slightly more confident... or at least, maybe slightly less helpless.
+  You tuck the knife into your belt at the small of your back. The blade slides through easily. It's a little awkard, but the blade is long enough and the handle thick enough that you don't think it will fall out easily. You feel slightly more confident... or at least, maybe slightly less helpless.
   -> kitchen
 
 * (tried_stairs) {!(study.got_cross && kitchen.got_knife)} [A dark doorway opens at the far end of the kitchen.]
@@ -146,7 +147,7 @@ Kitchen
   A wave of cold dread washes over you — not a chill, exactly, more like a certainty that you should not go down there. Your feet stop moving on their own. You stand frozen in the doorway for a long moment.
   You take a step back, then another. You're not ready for that. Not yet.
   -> kitchen
-* (tried_stairs_armed) {study.got_cross && kitchen.got_knife} [A dark doorway beckons at the far end of the kitchen.]
+* (tried_stairs_armed) {!tried_stairs && study.got_cross && kitchen.got_knife} [A dark doorway beckons at the far end of the kitchen.]
   You approach and peer through. Beyond the frame, a staircase drops away into complete darkness. You can't see the bottom.
   A wave of cold dread washes over you — and with it, sudden and horrible clarity.
   The cross in your left pocket. The knife at your back.
@@ -170,7 +171,7 @@ Kitchen
 * {tried_stairs && !(study.got_cross && kitchen.got_knife)} [The dark stairwell waits at the far end of the kitchen.]
   You take a long breath and steel yourself. One step at a time. You duck through the doorway and start down. The stairs are made of rough stone — nothing like the wood floors above, older somehow, as though they predate the rest of the house entirely. The darkness swallows you as you descend.
   -> basement
-* {tried_stairs_armed || tried_stairs_again_armed} [The dark doorway at the far end of the kitchen beckons.]
+* {tried_stairs_armed || tried_stairs_again_armed} [The dark doorway at the far end of the kitchen calls to you.]
   You take a long breath and steel yourself. You've come this far, and you tell yourself your imagination is running wild. One step at a time. You duck through the doorway and start down. The stairs are made of rough stone — nothing like the wood floors above, older somehow, as though they predate the rest of the house entirely. The darkness swallows you as you descend.
   -> basement
 + {basement} [The stairwell leads back down into the basement.]
@@ -201,23 +202,21 @@ You know the face. It's the man from the painting upstairs — the one with the 
 
 The man smiles. The candlelight catches the points of his teeth.
 
-{ study.read_dracula:
-The word falls into place like a key into a lock. The teeth.
-{ parlor.saw_portrait: <> The painting. }
+The word falls into place like a key into a lock. The house. The teeth.
 { kitchen.saw_teacup: <> The teacup. }
-The clock frozen at midnight.
-You've read this story. You know exactly what he is.
-- else:
-There is something deeply, fundamentally wrong with this man, though you cannot yet find the word for it.
-}
+{ parlor.saw_portrait: <> The painting. }
+<> The clock, frozen at midnight.
+{ study.read_dracula: <> You've read this story.}
 
-"It's terribly dangerous," he says, in a voice like old silk, "to trespass in someone else's home. Even one that appears... abandoned."
+Your mouth forms the word "Vampire", but no breath escapes to give it sound.
+
+"It's terribly dangerous," he says, in a voice like old silk, "to trespass in someone else's home."
 
 * [Apologize and back slowly toward the stairs.]
   "I — I'm sorry," you manage. "I didn't know anyone lived here. I'll just — I'll go."
-  The man's smile widens. The points of his teeth catch the candlelight.
+  The man's smile widens. The points of his teeth catch the candlelight again.
   "No apologies are needed," he says pleasantly, "for such a delicious gift."
-  He moves. You don't see how — one moment he is at the far end of the room, and then the candles go out, all of them, as suddenly as they lit. The darkness is total.
+  He moves. You don't see how — one moment he is at the far end of the room, but then the candles go out, all of them, as suddenly as they lit. The darkness is total.
   You never see the rest.
 
   THE END
@@ -231,6 +230,7 @@ There is something deeply, fundamentally wrong with this man, though you cannot 
     But the blow never lands. The light vanishes as suddenly as it appeared, and as you pierce through the darkness, you hit nothing but air where the man was just standing. A blow strikes your leg, and you spin, but before you can even think to strike back in the dark, another one hits your arm, and the knife clatters loudly to the floor, ringing like a funeral bell. Your funeral.
 
     THE END
+    -> END
   - else:
     There is no plan, no strategy — just pure desperate instinct. You hurl yourself across the basement at him with a wordless shout.
     He laughs. It's a short, genuine sound, almost delighted, like a cat that has discovered the mouse is willing to play.
@@ -238,21 +238,20 @@ There is something deeply, fundamentally wrong with this man, though you cannot 
     It isn't close.
 
     THE END
-
-  -> END
+    -> END
   }
 
 * (brandished_cross) {study.got_cross} [Brandish the silver cross.]
   Your hand finds the cross in your left pocket and you thrust it out in front of you, chain wrapped around your fist.
   The effect is immediate. The man recoils — not dramatically, not with a shriek, but with the involuntary flinch of something confronting a genuine threat. His arm comes up to shield his face. The candelabra tumbles from his hand.
-  And then, by some agency you cannot explain — magic, or the most improbable luck you have ever witnessed — it lands precisely upright on the earthen floor. Every candle remains lit. The basement stays illuminated.
-  In the uncertain light, the creature stands with his face still half-covered, and for the first time since the candles came on, he does not look entirely in control of the situation.
+  By some agency you cannot explain — magic, or the most improbable luck you have ever witnessed — it lands precisely upright on the earthen floor. Every candle remains lit. The basement stays illuminated.
+  In the steady light, the creature stands with his face still half-covered, shrinking back from you, and for the first time since the candles came on, he does not look entirely in control of the situation.
   -> confrontation_stunned
 
 * [Flee in terror.]
-  You run. There's no other word for it — no dignity, no plan, just pure animal terror propelling you back toward the stairs.
-  You reach them first. Your feet find the stone steps and you fly upward as fast as your legs can carry you, and for one wild moment you think you might actually make it.
-  Then you hear him behind you. Not running — something faster than running, something that doesn't make the right sounds on the stairs, closing the distance with an ease that turns your blood to ice water. And somehow, in the way that you sometimes simply know things in dreams, you know with absolute certainty that you are never going to reach—
+  You run. There's no other word for it — no dignity, no plan, just pure animal terror propelling you back toward the stairs. You don't look back.
+  Your feet find the stone steps and you fly upward as fast as your legs can carry you. For one wild moment you think you might make it.
+  Then you hear him... not running — something faster than running, something that doesn't make the right sounds on the stairs, closing the distance with an ease that turns your blood to ice water. There's only a few more steps to go, but somehow, you know with dread certainty that you are never going to reach—
 
   THE END
 
@@ -264,7 +263,7 @@ There is something deeply, fundamentally wrong with this man, though you cannot 
     You shift your grip on the knife, grasping it with both hands. You lunge at the vampire with everything you have — your full strength, compounded by the adrenaline flooding your system — one all-out, desperate strike aimed directly at his heart.
     It's not a wooden stake. You're not even sure if this creature can be damaged at all. But what choice do you have?
     So you're almost shocked when, in fact, the blade goes right in.
-    The vampire doesn't even have time to move, and not a sound escapes his lips. One moment he's standing there, and the next he's crumpling to the floor — with a lot more weight than you can possibly support. The knife is ripped out of your hands as he collapses.
+    The vampire doesn't even have time to move, and no sound escapes his lips. One moment he's standing there, and the next he's crumpling to the floor — with a lot more weight than you can possibly support. The knife is ripped out of your hands as he collapses.
 
     * * [Is it finally over?]
 
@@ -274,9 +273,9 @@ There is something deeply, fundamentally wrong with this man, though you cannot 
     The adrenaline fades and you start to come back to your senses. The candelabra is definitely sputtering now — one of the candles has already gone out. In the fading light, you look at the body once more. It's covered in blood. You are covered in blood.
     Slowly, it begins to dawn on you how bad this situation is starting to look. You're an intruder, and you just killed an apparently unarmed man. He _was_ a vampire, right? There's a dead body, a murder weapon, blood everywhere. Your fingerprints and DNA are on everything. Your friends all know you went inside, and they've been waiting outside for quite a long time now. They might have already called the police out of concern for you, oblivious to what actually happened in here.
     But you're alive, right? That's gotta be good, right?
-    You sit on the floor for a long time, wondering how all this will turn out.
+    You sit on the floor for a long time and wonder how all this will
 
-    THE END
+    END
 
     -> END
   - else:
@@ -291,7 +290,7 @@ There is something deeply, fundamentally wrong with this man, though you cannot 
   -> END
   }
 * [Flee in terror.]
-  You don't think. You just run — back toward the stairs, cross still clenched in your fist, held out behind you as you go. Whether it's buying you seconds or just something to hold onto, you can't say. But you hear him recovering behind you, and you don't look back.
+  You don't waste a moment wondering why that worked, you just run — back toward the stairs, cross still clenched in your fist, held out behind you as you go. Whether it's buying you seconds or just something to hold onto, you can't say. But you hear him recovering behind you, and you don't look back.
   -> escape_kitchen
 
 -> END
@@ -300,21 +299,21 @@ There is something deeply, fundamentally wrong with this man, though you cannot 
 You burst through the kitchen doorway at a dead run, nearly losing your footing as you cross the threshold. Behind you on the stairs, you hear something ascending — and it doesn't sound happy.
 
 * [Make for the entry hall.]
-  You rush across the kitchen for the entry hall, sparing a glance over your shoulder as you reach the doorway-- just in time to see the man reach the top of the stairs behind you. You thrust the cross back over your shoulder without breaking stride. You don't hesitate long enough to know if it helped. 
+  You rush across the kitchen for the entry hall, sparing a glance over your shoulder as you reach the doorway - just in time to see the man reach the top of the stairs behind you. You thrust the cross back over your shoulder without breaking stride. You don't hesitate long enough to know if it helped. 
   -> escape_entry_hall
 
 === escape_entry_hall ===
 Entry Hall
 
-You skid into the entry hall, breathing in ragged gasps. Three ways out. None of them good.
+{ stopping: You skid into the entry hall, breathing in ragged gasps. Three ways out. None of them good. | What now? | }
 
 * (tried_escape_door) [The front door!]
   You throw yourself at the front door and wrench the handle with everything you have. It doesn't move.
   {entry_hall.tried_front_door: <> It didn't move before and it doesn't move now, and you have just spent precious seconds finding that out again.}
-  Behind you, you sense your pursuer approaching.
+  Behind you, you feel your pursuer approaching.
   -> escape_entry_hall
 * {tried_escape_door} [The front door — one more try!]
-  You try again anyway. Of course it doesn't open. Of course it doesn't.
+  You try again anyway. It doesn't open. Of course it doesn't.
   You don't get a third try.
 
   THE END
@@ -331,7 +330,7 @@ You skid into the entry hall, breathing in ragged gasps. Three ways out. None of
 You run into the parlor. 
 { parlor.saw_curtains:
   There were windows in here, right? Oh wait... there were bars. And no other exit. There's nowhere to go.
-  You realize your mistake immediately, and whirl around, but it's already too late. He's standing in the doorway, arm lowered now, watching you with something that looks almost like patience.
+  You realize your mistake instantly, and whirl around, but it's already too late. He's standing in the doorway, arm lowered now, watching you with something that looks almost like patience.
   -> parlor_caught
 - else:
   There must be windows in here, behind the curtains you saw earlier?
@@ -353,20 +352,20 @@ THE END
 -> END
 
 === escape_study ===
-You throw yourself through the study door.
+You throw yourself through the study doorway, slamming the door behind you in one smooth motion, for all the good that will do.
 { study.examined_study_window:
-  The desk chair is still where you left it, pulled under the small window. Behind you, footsteps in the hall.
+  The desk chair is still where you left it, pulled up under the small window. Behind you, footsteps in the hall.
 
   * [Smash through the window.]
 
-  You cross the room in three strides and climb up without slowing down. No time to think about the glass.
-  You drive your elbow into it. It gives on the second blow. You squeeze through the gap, and the jagged edges find you — your arms, your side — but you don't stop, and then you are through, tumbling out onto the cold ground outside, gasping, bleeding, alive.
+  You cross the room in three strides and jump onto the chair without slowing down. No time to think about the glass.
+  You drive your elbow into it. It gives on the second blow. You squeeze through the gap, and the jagged edges find you — your arms, your sides, your legs — but you don't stop, and then you are through, tumbling out onto the cold ground outside, gasping, bleeding, alive.
   Behind you through the broken window, you hear him stop. A long silence.
-  Then, with what sounds almost like genuine frustration: "Another time, perhaps."
-  You look up. The sky is grey and brightening. He cannot follow you out here, and you both know it.
-  You lie on the cold ground and breathe. Your friends are going to have so many questions.
+  Then, in a pleasant voice marred by a touch of mockery: "Another time, perhaps."
+  You look up. The sky is grey, but it's bright enough. You both know he cannot follow you out here.
+  You lie on the cold ground and breathe. Your friends are going to have so many questions. Maybe you'll just stay here for a moment while you try to figure out what in the world you're going to tell them.
 
-  YOU SURVIVED
+  THE END
 
 -> END
 - else:
@@ -375,7 +374,7 @@ You throw yourself through the study door.
   * [Drag the chair over and climb up.]
 
   Frantically, you grab the chair from behind the desk and begin dragging it over to the window, while your brain is screaming that you don't have enough time.
-  Behind you, the study door swings slowly open.
+  Behind you, the study door swings slowly open again.
   Looks like your brain was right, after all.
 
   THE END
